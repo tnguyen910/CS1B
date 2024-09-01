@@ -1,0 +1,21 @@
+Script started on 2024-08-31 22:19:20-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="254" LINES="62"]
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[00m$ ls -l
+[?2004ltotal 0
+-rwxrwxrwx 1 tiim tiim  712 Aug 30 21:59 [0m[01;32mhw01.cpp[0m
+drwxrwxrwx 1 tiim tiim 4096 Aug 30 21:59 [34;42mhw01.dSYM[0m
+-rwxrwxrwx 1 tiim tiim   61 Aug 31 22:14 [01;32mhw01.hpp[0m
+-rwxrwxrwx 1 tiim tiim    0 Aug 31 22:19 [01;32mhw01.scr[0m
+-rwxrwxrwx 1 tiim tiim  451 Aug 31 22:16 [01;32mhw01.tar.gz[0m
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[00m$ g++ hw01.cpp -o hw01
+[?2004l[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[00m$ ls -l
+[?2004ltotal 20
+-rwxrwxrwx 1 tiim tiim 16712 Aug 31 22:19 [0m[01;32mhw01[0m
+-rwxrwxrwx 1 tiim tiim   712 Aug 30 21:59 [01;32mhw01.cpp[0m
+drwxrwxrwx 1 tiim tiim  4096 Aug 30 21:59 [34;42mhw01.dSYM[0m
+-rwxrwxrwx 1 tiim tiim    61 Aug 31 22:14 [01;32mhw01.hpp[0m
+-rwxrwxrwx 1 tiim tiim     0 Aug 31 22:19 [01;32mhw01.scr[0m
+-rwxrwxrwx 1 tiim tiim   451 Aug 31 22:16 [01;32mhw01.tar.gz[0m
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/01[00m$ exi[K[K[Kexit.[K-[K[K[K[K[Kexit -l;[K[K[K
+[?2004lexit
+
+Script done on 2024-08-31 22:20:04-07:00 [COMMAND_EXIT_CODE="0"]
