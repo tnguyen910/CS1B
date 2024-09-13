@@ -1,0 +1,28 @@
+CPP := g++
+OBJS := hw02showamt.o hw02menu.o hw02showsale.o hw02saleprod.o hw02showcount.o
+
+all: hw02
+
+hw02: hw02.hpp $(OBJS)
+	$(CPP) $(OBJS) hw02.cpp -o hw02
+
+hw02showamt:	hw02.hpp
+	$(CPP) -c hw02.cpp -o hw02showamt.o
+
+hw02menu: hw02.hpp
+	$(CPP) -c hw02menu.cpp -o hw02menu.o
+
+hw02showsale: hw02.hpp
+	$(CPP) -c hw02showsale.cpp -o hw02showsale.o
+
+hw02saleprod: hw02.hpp
+	$(CPP) -c hw02saleprod.cpp -o hw02saleprod.o
+
+hw02showcount: hw02.hpp
+	$(CPP) -c hw02showcount.cpp -o hw02showcount.o
+
+clean:
+	rm *.o *.tar
+
+tar:
+	tar cfv hw02.tar hw02.cpp hw02showamt.cpp hw02menu.cpp hw02showsale.cpp hw02saleprod.cpp hw02showcount.cpp hw02.scr

@@ -1,0 +1,164 @@
+Script started on Thu Sep 12 22:20:21 2024
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 02 % [K[?2004hmmake -f make[?2004l
+make: Nothing to be done for `all'.
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 02 % [K[?2004h../hw02[?2004l
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+1
+
+What size of coffee do you want? 
+
+S - Small (9 oz)....... $1.75
+M - Medium (12 oz)..... $1.90
+L - Large (15 oz)...... $2.00
+q - End Order ...............
+
+S
+Current Order:
+Small: 1, Medium: 0, Large: 0
+Total: 1.75
+
+Anything else?
+L
+Current Order:
+Small: 1, Medium: 0, Large: 1
+Total: 3.75
+
+Anything else?
+M
+Current Order:
+Small: 1, Medium: 1, Large: 1
+Total: 5.65
+
+Anything else?
+L
+Current Order:
+Small: 1, Medium: 1, Large: 2
+Total: 7.65
+
+Anything else?
+q
+Current Order:
+Small: 1, Medium: 1, Large: 2
+Total: 7.65
+
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+3 2
+
+Total Revenue: $7.65
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+3
+
+51oz of coffee has been sold!
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+4
+
+Small Sales: 1
+Medium Sales: 1
+Large Sales: 2
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+5
+
+Small Sales: 1
+Medium Sales: 1
+Large Sales: 2
+51oz of coffee has been sold!
+Total Revenue: $7.65
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+1
+
+What size of coffee do you want? 
+
+S - Small (9 oz)....... $1.75
+M - Medium (12 oz)..... $1.90
+L - Large (15 oz)...... $2.00
+q - End Order ...............
+
+L
+Current Order:
+Small: 0, Medium: 0, Large: 1
+Total: 2
+
+Anything else?
+q
+Current Order:
+Small: 0, Medium: 0, Large: 1
+Total: 2
+
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+5
+
+Small Sales: 1
+Medium Sales: 1
+Large Sales: 3
+66oz of coffee has been sold!
+Total Revenue: $9.65
+
+------- Coffee Shop -------
+1 - Order Coffee
+2 - Check total revenue
+3 - Check sales
+4 - Check sales per size
+5 - Show all data
+0 - ENTER 0 TO EXIT PROGRAM
+
+0
+
+
+[1m[7m%[27m[1m[0m                                                                                                                                             [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 02 % [K[?2004heexit[?2004l
+
+Script done on Thu Sep 12 22:22:05 2024
