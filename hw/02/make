@@ -25,4 +25,4 @@ clean:
 	rm *.o *.tar
 
 tar:
-	tar cfv hw02.tar hw02.cpp hw02showamt.cpp hw02menu.cpp hw02showsale.cpp hw02saleprod.cpp hw02showcount.cpp hw02.scr
+	tar cfv hw02.tar hw02.cpp hw02.hpp make hw02showamt.cpp hw02menu.cpp hw02showsale.cpp hw02saleprod.cpp hw02showcount.cpp hw02.scr
