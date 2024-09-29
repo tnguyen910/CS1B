@@ -1,0 +1,51 @@
+Script started on 2024-09-28 21:23:36-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="254" LINES="62"]
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/03[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/03[00m$ scr[K[K[Kls -l
+[?2004ltotal 44
+-rwxrwxrwx 1 tiim tiim 21800 Sep 28 21:01 [0m[01;32mhw03[0m
+-rwxrwxrwx 1 tiim tiim   816 Sep 28 20:16 [01;32mhw03.cpp[0m
+-rwxrwxrwx 1 tiim tiim    20 Sep 27 19:27 [01;32mhw03.hpp[0m
+-rwxrwxrwx 1 tiim tiim  3903 Sep 28 21:05 [01;32minctax.cpp[0m
+-rwxrwxrwx 1 tiim tiim   515 Sep 28 20:08 [01;32minctax.hpp[0m
+-rwxrwxrwx 1 tiim tiim 10144 Sep 28 21:01 [01;32minctax.o[0m
+-rwxrwxrwx 1 tiim tiim   248 Sep 28 21:23 [01;32mmake[0m
+-rwxrwxrwx 1 tiim tiim     0 Sep 28 21:23 [01;32mtypescript[0m
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/03[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/03[00m$ h[K./hw03
+[?2004lWhat is your name? Tim Nguyen
+What year are these taxes for? 2024
+Input an income category (1): 
+Job
+How much income did you make from Job: 300000
+Would you like to input another item? [y/n] n n y
+Input an income category (2): 
+side hustle           Side hustle
+How much income did you make from Side hustle: 100   100   d D D D C df  d 2000
+Would you like to input another item? [y/n] n
+List of sources of income 
+---------------------------
+Job: 300000.000000 
+Side hustle: 2000.000000 
+ - Total Income: $302000.000000 -
+
+Input an expense category (1): 
+T V G Tran nsporat  tation
+What were your expenses from Transportation: 3000
+Would you like to input another item? [y/n] n
+List of sources of expenses 
+---------------------------
+Transportation: 3000.000000 
+ - Total expenses: $3000.000000 -
+
+Input the name of your dependent [max 40 char] (1): 
+d Non   n Jane Doe
+What is your relationship to the dependent?: Parent
+Would you like to input another dependent? [y/n] n
+List of dependents 
+--------------------
+ - Total dependent deduction value: $0.000000 -
+
+Your income totals to: 302000.000000 
+Your expenses total to: 3000.000000 
+You have 0 dependents.Your total taxes owed are: 53820.000000[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/03[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/03[00m$ [?2004l
+exit
+
+Script done on 2024-09-28 21:26:22-07:00 [COMMAND_EXIT_CODE="0"]

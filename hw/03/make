@@ -1,0 +1,16 @@
+CPP := g++
+OBJS := inctax.o
+
+all: hw03
+
+hw03: hw03.hpp $(OBJS)
+	$(CPP) $(OBJS) hw03.cpp -o hw03
+
+inctax:	hw03.hpp
+	$(CPP) -c inctax.cpp -o inctax.o
+
+clean:
+	rm *.o *.tar
+
+tar:
+	tar cfv hw02.tar hw03.cpp inctax.cpp inctax.hpp hw03.hpp make hw03.scr
