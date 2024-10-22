@@ -1,0 +1,219 @@
+Script started on Tue Oct 15 23:37:42 2024
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 04 % [K[?2004hmmake[?2004l
+c++    -c -o functions.o functions.cpp
+In file included from functions.cpp:1:
+[1m./matrixDef.hpp:6:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    6 |     bool valid = true;[0m
+      | [0;1;32m               ^
+[0m[1m./matrixDef.hpp:9:30: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     double matrixArr[10][10] = {};[0m
+      | [0;1;32m                             ^
+[0m2 warnings generated.
+g++ functions.o hw04.cpp -o hw04
+In file included from hw04.cpp:1:
+In file included from ./functions.hpp:4:
+[1m./matrixDef.hpp:6:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    6 |     bool valid = true;[0m
+      | [0;1;32m               ^
+[0m[1m./matrixDef.hpp:9:30: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     double matrixArr[10][10] = {};[0m
+      | [0;1;32m                             ^
+[0m2 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 04 % [K[?2004hlls -l[?2004l
+total 184
+-rw-r--r--  1 tim  staff   2947 Oct 15 23:37 functions.cpp
+-rw-r--r--@ 1 tim  staff    297 Oct 15 22:51 functions.hpp
+-rw-r--r--  1 tim  staff  17464 Oct 15 23:37 functions.o
+-rwxr-xr-x  1 tim  staff  42296 Oct 15 23:37 hw04
+-rw-r--r--  1 tim  staff   1073 Oct 15 23:32 hw04.cpp
+-rw-r--r--@ 1 tim  staff     50 Oct 15 21:10 hw04.hpp
+-rw-r--r--  1 tim  staff     43 Oct 15 23:37 hw04.scr
+-rw-r--r--@ 1 tim  staff    344 Oct 15 23:04 makefile
+-rw-r--r--  1 tim  staff    293 Oct 15 23:28 matrixDef.hpp
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 04 % [K[?2004hmmam  ../hw04[?2004l
+How many rows do you want matrix A to be? (<=10)
+3
+Columns? (<=10)
+3
+Input digit for your matrix in row 1 and column 1 : 
+1
+Input digit for your matrix in row 1 and column 2 : 
+0
+Input digit for your matrix in row 1 and column 3 : 
+0
+Input digit for your matrix in row 2 and column 1 : 
+0
+Input digit for your matrix in row 2 and column 2 : 
+0
+Input digit for your matrix in row 2 and column 3 : 
+1
+Input digit for your matrix in row 3 and column 1 : 
+0
+Input digit for your matrix in row 3 and column 2 : 
+1
+Input digit for your matrix in row 3 and column 3 : 
+0
+Matrix A is: 
+
+1 0 0 
+0 0 1 
+0 1 0 
+
+How many rows do you want matrix B to be? (<=10)
+3
+Columns? (<=10)
+3
+Input digit for your matrix in row 1 and column 1 : 
+1
+Input digit for your matrix in row 1 and column 2 : 
+0
+Input digit for your matrix in row 1 and column 3 : 
+0
+Input digit for your matrix in row 2 and column 1 : 
+0
+Input digit for your matrix in row 2 and column 2 : 
+0
+Input digit for your matrix in row 2 and column 3 : 
+1
+Input digit for your matrix in row 3 and column 1 : 
+01 
+Input digit for your matrix in row 3 and column 2 : 
+1
+Input digit for your matrix in row 3 and column 3 : 
+0
+Matrix B is: 
+
+1 0 0 
+0 0 1 
+0 1 0 
+
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+1
+
+2 0 0 
+0 0 2 
+0 2 0 
+
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+2
+
+0 0 0 
+0 0 0 
+0 0 0 
+
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+3
+
+1 0 0 
+0 1 0 
+0 0 1 
+
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+4
+Thank you! 
+
+
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 04 % [K[?2004h../hw04[?2004l
+How many rows do you want matrix A to be? (<=10)
+1.3   3
+Columns? (<=10)
+3
+Input digit for your matrix in row 1 and column 1 : 
+1.3
+Input digit for your matrix in row 1 and column 2 : 
+1.4 7
+Input digit for your matrix in row 1 and column 3 : 
+3.4
+Input digit for your matrix in row 2 and column 1 : 
+0.9   0.9
+Input digit for your matrix in row 2 and column 2 : 
+4.2
+Input digit for your matrix in row 2 and column 3 : 
+5.3
+Input digit for your matrix in row 3 and column 1 : 
+4.6
+Input digit for your matrix in row 3 and column 2 : 
+7.5
+Input digit for your matrix in row 3 and column 3 : 
+3.2
+Matrix A is: 
+
+1.3 1.7 3.4 
+0.9 4.2 5.3 
+4.6 7.5 3.2 
+
+How many rows do you want matrix B to be? (<=10)
+3
+Columns? (<=10)
+2
+Input digit for your matrix in row 1 and column 1 : 
+1.3
+Input digit for your matrix in row 1 and column 2 : 
+4.3
+Input digit for your matrix in row 2 and column 1 : 
+2.2
+Input digit for your matrix in row 2 and column 2 : 
+2.2
+Input digit for your matrix in row 3 and column 1 : 
+3.4 6
+Input digit for your matrix in row 3 and column 2 : 
+1.1
+Matrix B is: 
+
+1.3 4.3 
+2.2 2.2 
+3.6 1.1 
+
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+3
+
+5.43 9.33 
+10.41 13.11 
+22.48 36.28 
+
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+1
+Invalid operation!
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+2
+Invalid operation!
+What would you like to do? 
+1. Add Matrix A to B 
+2. Subtract Matrix B from A
+3. Multiply Matrix A and B (A x B)
+0. End Program
+0
+Thank you! 
+
+
+[1m[7m%[27m[1m[0m                                                                                                                                              [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 04 % [K[?2004h[?2004l
+
+Script done on Tue Oct 15 23:39:06 2024
