@@ -2,7 +2,7 @@
 #include <ios>
 #include <limits>
 
-bool menu(int bookData[10]) {
+bool menu(BookInfo bookData[10], size_t size) {
   std::cout << " ----- Menu ----- \n";
   std::cout << "1. Add a Book\n";
   std::cout << "2. Modify a Book\n";
@@ -19,7 +19,7 @@ bool menu(int bookData[10]) {
 
   switch (input) {
   case 1:
-    //
+    populateBookDB(bookData, size);
     break;
 
   case 2:
@@ -39,6 +39,7 @@ bool menu(int bookData[10]) {
     break;
 
   case 0:
+    return true;
     //
     break;
 
