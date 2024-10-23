@@ -1,10 +1,41 @@
-Script started on 2024-10-23 10:18:16-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="252" LINES="65"]
+Script started on 2024-10-23 10:24:34-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="252" LINES="65"]
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ gi[K[Kg[Kls[K[Kls -l
+[?2004ltotal 172
+-rwxrwxrwx 1 tiim tiim   108 Oct 23 10:10 [0m[01;32mbookOutput56827[0m
+-rwxrwxrwx 1 tiim tiim 46096 Oct 23 10:18 [01;32mhw05[0m
+-rwxrwxrwx 1 tiim tiim   171 Oct 23 09:53 [01;32mhw05.cpp[0m
+-rwxrwxrwx 1 tiim tiim    40 Oct 23 07:52 [01;32mhw05.hpp[0m
+-rwxrwxrwx 1 tiim tiim     0 Oct 23 10:24 [01;32mhw05.scr[0m
+-rwxrwxrwx 1 tiim tiim  1180 Oct 23 10:23 [01;32mhw05f.hpp[0m
+-rwxrwxrwx 1 tiim tiim   990 Oct 23 09:56 [01;32mhw05f1.cpp[0m
+-rwxrwxrwx 1 tiim tiim  5176 Oct 23 10:18 [01;32mhw05f1.o[0m
+-rwxrwxrwx 1 tiim tiim   169 Oct 23 09:53 [01;32mhw05f2.cpp[0m
+-rwxrwxrwx 1 tiim tiim  4712 Oct 23 10:18 [01;32mhw05f2.o[0m
+-rwxrwxrwx 1 tiim tiim  1458 Oct 23 10:11 [01;32mhw05f3.cpp[0m
+-rwxrwxrwx 1 tiim tiim 20240 Oct 23 10:18 [01;32mhw05f3.o[0m
+-rwxrwxrwx 1 tiim tiim   630 Oct 23 10:24 [01;32mhw05f4.cpp[0m
+-rwxrwxrwx 1 tiim tiim  8024 Oct 23 10:18 [01;32mhw05f4.o[0m
+-rwxrwxrwx 1 tiim tiim   509 Oct 23 09:53 [01;32mhw05f5.cpp[0m
+-rwxrwxrwx 1 tiim tiim 14328 Oct 23 10:18 [01;32mhw05f5.o[0m
+-rwxrwxrwx 1 tiim tiim   920 Oct 23 10:23 [01;32mhw05f6.cpp[0m
+-rwxrwxrwx 1 tiim tiim  8368 Oct 23 10:18 [01;32mhw05f6.o[0m
+-rwxrwxrwx 1 tiim tiim   926 Oct 23 10:12 [01;32mhw05f7.cpp[0m
+-rwxrwxrwx 1 tiim tiim 19624 Oct 23 10:18 [01;32mhw05f7.o[0m
+-rwxrwxrwx 1 tiim tiim   643 Oct 23 10:09 [01;32mmakefile[0m
 [?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ make clean
 [?2004lrm *.o *.tar
 rm: cannot remove '*.tar': No such file or directory
 make: *** [makefile:31: clean] Error 1
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ls
+[?2004l[0m[01;32mbookOutput56827[0m  [01;32mhw05[0m  [01;32mhw05.cpp[0m  [01;32mhw05.hpp[0m  [01;32mhw05.scr[0m  [01;32mhw05f.hpp[0m  [01;32mhw05f1.cpp[0m  [01;32mhw05f2.cpp[0m  [01;32mhw05f3.cpp[0m  [01;32mhw05f4.cpp[0m  [01;32mhw05f5.cpp[0m  [01;32mhw05f6.cpp[0m  [01;32mhw05f7.cpp[0m  [01;32mmakefile[0m
 [?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ git log
-[?2004l[?1h=[33mcommit ff5eeb105a925f71f36095199d71c01ef14c6f14[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+[?2004l[?1h=[33mcommit 30df47b3501cad0037571c107bc19f729c245886[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 10:24:17 2024 -0700[m
+[m
+    fixed book updating[m
+[m
+[33mcommit ff5eeb105a925f71f36095199d71c01ef14c6f14[m[m
 Author: Tim Nguyen <tnguyen910@ivc.edu>[m
 Date:   Wed Oct 23 10:13:23 2024 -0700[m
 [m
@@ -62,29 +93,9 @@ Date:   Tue Oct 22 14:40:50 2024 -0700[m
 Author: Tim Nguyen <tnguyen910@ivc.edu>[m
 Date:   Sat Sep 28 21:27:29 2024 -0700[m
 [m
-    hw03[m
-[m
-[33mcommit c23ca8813b9bdc75ee55af7221c1db4667c3f896[m[m
-Author: Tim Nguyen <tim@tims-mbp.saddleback.edu>[m
-Date:   Thu Sep 26 19:39:28 2024 -0700[m
-[m
-:[K[K:[K[K-[Klog file: [K  [K--[Kll[K[K[K[Kqq[K[K:[K[K[?1l>[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ls -l
-[?2004ltotal 68
--rwxrwxrwx 1 tiim tiim   108 Oct 23 10:10 [0m[01;32mbookOutput56827[0m
--rwxrwxrwx 1 tiim tiim 46096 Oct 23 10:15 [01;32mhw05[0m
--rwxrwxrwx 1 tiim tiim   171 Oct 23 09:53 [01;32mhw05.cpp[0m
--rwxrwxrwx 1 tiim tiim    40 Oct 23 07:52 [01;32mhw05.hpp[0m
--rwxrwxrwx 1 tiim tiim     0 Oct 23 10:18 [01;32mhw05.scr[0m
--rwxrwxrwx 1 tiim tiim  1183 Oct 23 09:56 [01;32mhw05f.hpp[0m
--rwxrwxrwx 1 tiim tiim   990 Oct 23 09:56 [01;32mhw05f1.cpp[0m
--rwxrwxrwx 1 tiim tiim   169 Oct 23 09:53 [01;32mhw05f2.cpp[0m
--rwxrwxrwx 1 tiim tiim  1458 Oct 23 10:11 [01;32mhw05f3.cpp[0m
--rwxrwxrwx 1 tiim tiim   620 Oct 23 10:11 [01;32mhw05f4.cpp[0m
--rwxrwxrwx 1 tiim tiim   509 Oct 23 09:53 [01;32mhw05f5.cpp[0m
--rwxrwxrwx 1 tiim tiim   896 Oct 23 09:53 [01;32mhw05f6.cpp[0m
--rwxrwxrwx 1 tiim tiim   926 Oct 23 10:12 [01;32mhw05f7.cpp[0m
--rwxrwxrwx 1 tiim tiim   643 Oct 23 10:09 [01;32mmakefile[0m
-[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ make 
+:[K[K[?1l>[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ls
+[?2004l[0m[01;32mbookOutput56827[0m  [01;32mhw05[0m  [01;32mhw05.cpp[0m  [01;32mhw05.hpp[0m  [01;32mhw05.scr[0m  [01;32mhw05f.hpp[0m  [01;32mhw05f1.cpp[0m  [01;32mhw05f2.cpp[0m  [01;32mhw05f3.cpp[0m  [01;32mhw05f4.cpp[0m  [01;32mhw05f5.cpp[0m  [01;32mhw05f6.cpp[0m  [01;32mhw05f7.cpp[0m  [01;32mmakefile[0m
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ make -[K
 [?2004lg++ -c hw05f1.cpp -o hw05f1.o
 g++ -c hw05f2.cpp -o hw05f2.o
 g++ -c hw05f3.cpp -o hw05f3.o
@@ -93,6 +104,29 @@ g++ -c hw05f5.cpp -o hw05f5.o
 g++ -c hw05f6.cpp -o hw05f6.o
 g++ -c hw05f7.cpp -o hw05f7.o
 g++ hw05f1.o hw05f2.o hw05f3.o hw05f4.o hw05f5.o hw05f6.o hw05f7.o hw05f.hpp hw05.cpp -o hw05
+l[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ls -l
+[?2004ltotal 172
+-rwxrwxrwx 1 tiim tiim   108 Oct 23 10:10 [0m[01;32mbookOutput56827[0m
+-rwxrwxrwx 1 tiim tiim 46144 Oct 23 10:24 [01;32mhw05[0m
+-rwxrwxrwx 1 tiim tiim   171 Oct 23 09:53 [01;32mhw05.cpp[0m
+-rwxrwxrwx 1 tiim tiim    40 Oct 23 07:52 [01;32mhw05.hpp[0m
+-rwxrwxrwx 1 tiim tiim  4096 Oct 23 10:24 [01;32mhw05.scr[0m
+-rwxrwxrwx 1 tiim tiim  1180 Oct 23 10:23 [01;32mhw05f.hpp[0m
+-rwxrwxrwx 1 tiim tiim   990 Oct 23 09:56 [01;32mhw05f1.cpp[0m
+-rwxrwxrwx 1 tiim tiim  5176 Oct 23 10:24 [01;32mhw05f1.o[0m
+-rwxrwxrwx 1 tiim tiim   169 Oct 23 09:53 [01;32mhw05f2.cpp[0m
+-rwxrwxrwx 1 tiim tiim  4712 Oct 23 10:24 [01;32mhw05f2.o[0m
+-rwxrwxrwx 1 tiim tiim  1458 Oct 23 10:11 [01;32mhw05f3.cpp[0m
+-rwxrwxrwx 1 tiim tiim 20240 Oct 23 10:24 [01;32mhw05f3.o[0m
+-rwxrwxrwx 1 tiim tiim   630 Oct 23 10:24 [01;32mhw05f4.cpp[0m
+-rwxrwxrwx 1 tiim tiim  8096 Oct 23 10:24 [01;32mhw05f4.o[0m
+-rwxrwxrwx 1 tiim tiim   509 Oct 23 09:53 [01;32mhw05f5.cpp[0m
+-rwxrwxrwx 1 tiim tiim 14328 Oct 23 10:24 [01;32mhw05f5.o[0m
+-rwxrwxrwx 1 tiim tiim   920 Oct 23 10:23 [01;32mhw05f6.cpp[0m
+-rwxrwxrwx 1 tiim tiim  8256 Oct 23 10:24 [01;32mhw05f6.o[0m
+-rwxrwxrwx 1 tiim tiim   926 Oct 23 10:12 [01;32mhw05f7.cpp[0m
+-rwxrwxrwx 1 tiim tiim 19624 Oct 23 10:24 [01;32mhw05f7.o[0m
+-rwxrwxrwx 1 tiim tiim   643 Oct 23 10:09 [01;32mmakefile[0m
 [?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ./hw05
 [?2004l ---------- Menu ---------- 
 1. Add a Book
@@ -104,11 +138,11 @@ g++ hw05f1.o hw05f2.o hw05f3.o hw05f4.o hw05f5.o hw05f6.o hw05f7.o hw05f.hpp hw0
 
 Input a number: 1
 Input Title: 
-Test Title 1
+Jan   Title Test 1
 Input Author: 
-Ja ohn Doe
+Titl    John Doe
 Input Page count: 
-435
+435 6
 Choose a Type of Media:
 1. Hardcover2. Paperback
 3. Audiobook 
@@ -116,11 +150,11 @@ Choose a Type of Media:
 5. Other
 Input: 1
 Input ISBN: 
-100000000         00000000001
+23412452351235              00000000000001
 Input Genre: 
-d 23  Fiction
+Fiction
 Input Price: 
-40
+43  23
  ---------- Menu ---------- 
 1. Add a Book
 2. Modify a Book
@@ -129,25 +163,25 @@ Input Price:
 5. Save Data to A File
 0. Quit Program
 
-Input a number: 2 1
+Input a number: 1
 Input Title: 
-Jane      Test Title 2
+T T T Title Test 2
 Input Author: 
 Jane Doe
 Input Page count: 
-32  434
+5235 7    853
 Choose a Type of Media:
 1. Hardcover2. Paperback
 3. Audiobook 
 4. Pdf
 5. Other
-Input: 2 3
+Input: 3
 Input ISBN: 
-0000000000002
+0- 00000000001 2
 Input Genre: 
-Fictio      Nonfiction
+d Nonfiction
 Input Price: 
-32
+324   12
  ---------- Menu ---------- 
 1. Add a Book
 2. Modify a Book
@@ -158,18 +192,18 @@ Input Price:
 
 Input a number: 3
 List of books: 
-1: Test Title 1
-2: Test Title 2
-Choose a book: 2
+1: Title Test 1
+2: Title Test 2
+Choose a book: 1
 
 
-Title: Test Title 2
-Author: Jane Doe
-Genre: Nonfiction
-Media Type: 2
-Page Count: 434
-ISBN: 0000000000002
-Price: $32
+Title: Title Test 1
+Author: John Doe
+Genre: Fiction
+Media Type: 0
+Page Count: 436
+ISBN: 00000000000001
+Price: $23
 
  ---------- Menu ---------- 
 1. Add a Book
@@ -179,40 +213,40 @@ Price: $32
 5. Save Data to A File
 0. Quit Program
 
-Input a number: 1 2
+Input a number: 2
 List of books: 
-1: Test Title 1
-2: Test Title 2
-Choose a book: 1
+1: Title Test 1
+2: Title Test 2
+Choose a book: 1 2
 
 
-Title: Test Title 1
-Author: John Doe
-Genre: Fiction
-Media Type: 0
-Page Count: 435
-ISBN: 00000000001
-Price: $40
+Title: Title Test 2
+Author: Jane Doe
+Genre: Nonfiction
+Media Type: 2
+Page Count: 853
+ISBN: 000000000002
+Price: $12
 
 Update book with new information.
 Input Title: 
-Jane Doe          Test Title (modified)
+Title tes   Test 2 (Modified)
 Input Author: 
-Fictio      John Doe
+N Jane Doe
 Input Page count: 
-Fic   435
+853
 Choose a Type of Media:
 1. Hardcover2. Paperback
 3. Audiobook 
 4. Pdf
 5. Other
-Input: 2
+Input: 0000000       3 4
 Input ISBN: 
-Fiction         0000000000001
+00000000000000002
 Input Genre: 
-Fiction
+Nonfiction
 Input Price: 
-32  40
+13  9
 Book Updated
  ---------- Menu ---------- 
 1. Add a Book
@@ -222,20 +256,20 @@ Book Updated
 5. Save Data to A File
 0. Quit Program
 
-Input a number: 3
+Input a number: 2 3
 List of books: 
-1: Test Title 1
-2: Test Title 2
-Choose a book: 1
+1: Title Test 1
+2: Title Test 2 (Modified)
+Choose a book: 2
 
 
-Title: Test Title 1
-Author: John Doe
-Genre: Fiction
-Media Type: 0
-Page Count: 435
-ISBN: 00000000001
-Price: $40
+Title: Title Test 2 (Modified)
+Author: Jane Doe
+Genre: Nonfiction
+Media Type: 3
+Page Count: 853
+ISBN: 00000000000000002
+Price: $9
 
  ---------- Menu ---------- 
 1. Add a Book
@@ -246,30 +280,8 @@ Price: $40
 0. Quit Program
 
 Input a number: 4
-Test Title
-Book not found ---------- Menu ---------- 
-1. Add a Book
-2. Modify a Book
-3. Show Book Info
-4. Search Book Title
-5. Save Data to A File
-0. Quit Program
-
-Input a number: 3
-List of books: 
-1: Test Title 1
-2: Test Title 2
-Choose a book: 1
-
-
-Title: Test Title 1
-Author: John Doe
-Genre: Fiction
-Media Type: 0
-Page Count: 435
-ISBN: 00000000001
-Price: $40
-
+Title Test 1
+Title Test 1 found at index 1
  ---------- Menu ---------- 
 1. Add a Book
 2. Modify a Book
@@ -278,21 +290,18 @@ Price: $40
 5. Save Data to A File
 0. Quit Program
 
-Input a number: 3
-List of books: 
-1: Test Title 1
-2: Test Title 2
-Choose a book: 2
+Input a number: 5 4
+Jane Doe
+Title Test 2 (Modified) found at index 2
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
 
-
-Title: Test Title 2
-Author: Jane Doe
-Genre: Nonfiction
-Media Type: 2
-Page Count: 434
-ISBN: 0000000000002
-Price: $32
-
+Input a number: 5
  ---------- Menu ---------- 
 1. Add a Book
 2. Modify a Book
@@ -302,7 +311,31 @@ Price: $32
 0. Quit Program
 
 Input a number: 0
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ls -l
+[?2004ltotal 172
+-rwxrwxrwx 1 tiim tiim   266 Oct 23 10:26 [0m[01;32mbookOutput24325.txt[0m
+-rwxrwxrwx 1 tiim tiim   108 Oct 23 10:10 [01;32mbookOutput56827[0m
+-rwxrwxrwx 1 tiim tiim 46144 Oct 23 10:24 [01;32mhw05[0m
+-rwxrwxrwx 1 tiim tiim   171 Oct 23 09:53 [01;32mhw05.cpp[0m
+-rwxrwxrwx 1 tiim tiim    40 Oct 23 07:52 [01;32mhw05.hpp[0m
+-rwxrwxrwx 1 tiim tiim  8192 Oct 23 10:25 [01;32mhw05.scr[0m
+-rwxrwxrwx 1 tiim tiim  1180 Oct 23 10:23 [01;32mhw05f.hpp[0m
+-rwxrwxrwx 1 tiim tiim   990 Oct 23 09:56 [01;32mhw05f1.cpp[0m
+-rwxrwxrwx 1 tiim tiim  5176 Oct 23 10:24 [01;32mhw05f1.o[0m
+-rwxrwxrwx 1 tiim tiim   169 Oct 23 09:53 [01;32mhw05f2.cpp[0m
+-rwxrwxrwx 1 tiim tiim  4712 Oct 23 10:24 [01;32mhw05f2.o[0m
+-rwxrwxrwx 1 tiim tiim  1458 Oct 23 10:11 [01;32mhw05f3.cpp[0m
+-rwxrwxrwx 1 tiim tiim 20240 Oct 23 10:24 [01;32mhw05f3.o[0m
+-rwxrwxrwx 1 tiim tiim   630 Oct 23 10:24 [01;32mhw05f4.cpp[0m
+-rwxrwxrwx 1 tiim tiim  8096 Oct 23 10:24 [01;32mhw05f4.o[0m
+-rwxrwxrwx 1 tiim tiim   509 Oct 23 09:53 [01;32mhw05f5.cpp[0m
+-rwxrwxrwx 1 tiim tiim 14328 Oct 23 10:24 [01;32mhw05f5.o[0m
+-rwxrwxrwx 1 tiim tiim   920 Oct 23 10:23 [01;32mhw05f6.cpp[0m
+-rwxrwxrwx 1 tiim tiim  8256 Oct 23 10:24 [01;32mhw05f6.o[0m
+-rwxrwxrwx 1 tiim tiim   926 Oct 23 10:12 [01;32mhw05f7.cpp[0m
+-rwxrwxrwx 1 tiim tiim 19624 Oct 23 10:24 [01;32mhw05f7.o[0m
+-rwxrwxrwx 1 tiim tiim   643 Oct 23 10:09 [01;32mmakefile[0m
 [?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ [?2004l
 exit
 
-Script done on 2024-10-23 10:21:22-07:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2024-10-23 10:27:14-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,22 @@
+Book #1
+Title: Title Test 1
+Author: John Doe
+Genre: Fiction
+Media Type: 0
+Page Count: 436
+ISBN: 00000000000001
+Price: $23
+
+
+
+Book #2
+Title: Title Test 2 (Modified)
+Author: Jane Doe
+Genre: Nonfiction
+Media Type: 3
+Page Count: 853
+ISBN: 00000000000000002
+Price: $9
+
+
+

@@ -31,4 +31,4 @@ clean:
 	rm *.o *.tar
 
 tar:
-	tar cfv hw05.tar hw05f1.cpp hw05f2.cpp hw05f3.cpp hw05f4.cpp hw05f5.cpp hw05f6.cpp hw05f7.cpp makefile hw05.scr
+	tar cfv hw05.tar hw05.cpp hw05.hpp hw05f.hpp hw05f1.cpp hw05f2.cpp hw05f3.cpp hw05f4.cpp hw05f5.cpp hw05f6.cpp hw05f7.cpp makefile hw05.scr
