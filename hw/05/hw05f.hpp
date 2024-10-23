@@ -46,6 +46,10 @@ void saveList(BookInfo data[10], size_t &size);
 
 // Util Funcitons------------
 
+// prints book info
 void printBookInfo(BookInfo book);
+
+// Select a book from the list, return book object
+BookInfo selectBook(BookInfo data[10], size_t &size);
 
 #endif

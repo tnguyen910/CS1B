@@ -1,7 +1,11 @@
 #include "hw05f.hpp"
 #include <iomanip>
 
-void outputBookInfo(BookInfo bookInfo) {}
+void outputBookInfo(BookInfo bookInfo[10], size_t &size) {
+  BookInfo book = selectBook(bookInfo, size);
+
+  printBookInfo(book);
+}
 
 void printBookInfo(BookInfo book) {
   std::cout << "Title: " << book.title << "\n";
