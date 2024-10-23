@@ -23,12 +23,29 @@ struct BookInfo {
   std::string isbn;
 };
 
-bool menu(BookInfo data[10], size_t size);
-void populateBookDB(BookInfo data[10], size_t size);
+// Intiate menu/selection
+bool menu(BookInfo data[10], size_t &size);
+
+// Intitate adding a new book
+void populateBookDB(BookInfo data[10], size_t &size);
+
+// Function to return a new book with inputed info
 BookInfo inputBookInfo();
-void outputBookInfo(BookInfo data[10], size_t size);
-void searchList(BookInfo data[10], size_t size);
-void updateList(BookInfo data[10], size_t size);
-void saveList(BookInfo data[10], size_t size);
+
+// Show info from a specific book
+void outputBookInfo(BookInfo data[10], size_t &size);
+
+// Search list for a book title
+void searchList(BookInfo data[10], size_t &size);
+
+// Update information of a specific book
+void updateList(BookInfo data[10], size_t &size);
+
+// Save current list to a file.
+void saveList(BookInfo data[10], size_t &size);
+
+// Util Funcitons------------
+
+void printBookInfo(BookInfo book);
 
 #endif

@@ -3,6 +3,11 @@
 int main() {
 
   BookInfo bookArray[10] = {};
+  size_t size = 0;
 
-  menu(bookArray);
+  bool exit = false;
+
+  do {
+    exit = menu(bookArray, size);
+  } while (!exit);
 }

@@ -2,19 +2,21 @@
 #include <iostream>
 #include <limits>
 
-template <typename infoT>
+template <typename T>
 
-infoT getInfo(std::string field) {
+T getInfo(std::string field) {
 
   std::cout << "Input " << field << ": \n";
 
-  infoT output = 0;
+  T output = 0;
   std::cin >> output;
   std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   return output;
 }
 
-std::string getInfo(std::string field) {
+template <>
+
+std::string getInfo<std::string>(std::string field) {
 
   std::cout << "Input " << field << ": \n";
 

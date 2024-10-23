@@ -2,8 +2,8 @@
 #include <ios>
 #include <limits>
 
-bool menu(BookInfo bookData[10], size_t size) {
-  std::cout << " ----- Menu ----- \n";
+bool menu(BookInfo bookData[10], size_t &size) {
+  std::cout << " ---------- Menu ---------- \n";
   std::cout << "1. Add a Book\n";
   std::cout << "2. Modify a Book\n";
   std::cout << "3. Show Book Info\n";
@@ -23,19 +23,22 @@ bool menu(BookInfo bookData[10], size_t size) {
     break;
 
   case 2:
+    updateList(bookData, size);
     //
     break;
 
   case 3:
-    //
+
+    outputBookInfo(bookData, size);
     break;
 
   case 4:
-    //
+
+    searchList(bookData, size);
     break;
 
   case 5:
-    //
+    saveList(bookData, size);
     break;
 
   case 0:
@@ -47,4 +50,6 @@ bool menu(BookInfo bookData[10], size_t size) {
     std::cout << "Invalid Input! Try again\n";
     break;
   }
+
+  return false;
 }
