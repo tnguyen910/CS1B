@@ -1,7 +1,7 @@
 #include "hw05f.hpp"
 #include <limits>
 
-BookInfo selectBook(BookInfo bookInfo[10], size_t &size) {
+size_t selectBook(BookInfo bookInfo[10], size_t &size) {
 
   std::cout << "List of books: \n";
 
@@ -12,7 +12,7 @@ BookInfo selectBook(BookInfo bookInfo[10], size_t &size) {
 
   std::cout << "Choose a book: ";
 
-  int input = 0;
+  size_t input = 0;
   bool validInput = false;
   do {
     std::cin >> input;
@@ -26,17 +26,17 @@ BookInfo selectBook(BookInfo bookInfo[10], size_t &size) {
     }
   } while (!validInput);
 
-  return bookInfo[input];
+  return input;
 }
 
 void updateList(BookInfo bookInfo[10], size_t &size) {
 
-  BookInfo book = selectBook(bookInfo, size);
+  size_t bookIndex = selectBook(bookInfo, size);
 
-  printBookInfo(book);
+  printBookInfo(bookInfo[bookIndex]);
 
   std::cout << "Update book with new information.\n";
-  book = inputBookInfo();
+  bookInfo[bookIndex] = inputBookInfo();
 
   std::cout << "Book Updated\n";
 }

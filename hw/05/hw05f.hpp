@@ -49,7 +49,7 @@ void saveList(BookInfo data[10], size_t &size);
 // prints book info
 void printBookInfo(BookInfo book);
 
-// Select a book from the list, return book object
-BookInfo selectBook(BookInfo data[10], size_t &size);
+// Select a book from the list, return book index
+size_t selectBook(BookInfo data[10], size_t &size);
 
 #endif

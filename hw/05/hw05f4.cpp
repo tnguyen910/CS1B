@@ -2,7 +2,7 @@
 #include <iomanip>
 
 void outputBookInfo(BookInfo bookInfo[10], size_t &size) {
-  BookInfo book = selectBook(bookInfo, size);
+  BookInfo book = bookInfo[selectBook(bookInfo, size)];
 
   printBookInfo(book);
 }

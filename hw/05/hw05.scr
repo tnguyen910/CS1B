@@ -1,0 +1,308 @@
+Script started on 2024-10-23 10:18:16-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="252" LINES="65"]
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ make clean
+[?2004lrm *.o *.tar
+rm: cannot remove '*.tar': No such file or directory
+make: *** [makefile:31: clean] Error 1
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ git log
+[?2004l[?1h=[33mcommit ff5eeb105a925f71f36095199d71c01ef14c6f14[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 10:13:23 2024 -0700[m
+[m
+    modified file saving, added makefile[m
+[m
+[33mcommit 32661f1342d9e2acb6283128260fbf9114e6713f[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 09:57:22 2024 -0700[m
+[m
+    added file saving functionality[m
+[m
+[33mcommit db43503a8f7c13035e96957cc25f5235e82b94ca[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 09:40:14 2024 -0700[m
+[m
+    implemented book search by unique identifiers (author, title, isbn)[m
+[m
+[33mcommit 9f5b6e026329fcf88b92ff8faf72048f57e37ed3[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 09:31:41 2024 -0700[m
+[m
+    added book outputer, select book[m
+[m
+[33mcommit d4195c1c1c19a25a108ea8e7b258bd0afcbee998[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 09:29:40 2024 -0700[m
+[m
+    printing book functionality, book updater[m
+[m
+[33mcommit 8f3d5d9093f81e623335d7a611688b275be2b39a[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 08:51:40 2024 -0700[m
+[m
+    Added book input and array updater[m
+[m
+[33mcommit bd67a807e4c0a2fde7f4c5d7680fe61046a2ecef[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Wed Oct 23 08:11:24 2024 -0700[m
+[m
+    Updated Functions for new BookInfo type[m
+[m
+[33mcommit d15e33614d6d810d9e0fa2e1f335d614fec8a236[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Tim Nguyen <tim@Tims-MacBook-Pro.local>[m
+Date:   Wed Oct 23 07:52:04 2024 -0700[m
+[m
+    hw05 header[m
+[m
+[33mcommit 18909fd09073bb80dc6a324b571f464060713b5a[m[m
+Author: Tim Nguyen <tim@Tims-MacBook-Pro.local>[m
+Date:   Tue Oct 22 14:40:50 2024 -0700[m
+[m
+    hw04[m
+[m
+[33mcommit bfeff90290caf1d2b1ff76e3fd7b85d2b79618ec[m[m
+Author: Tim Nguyen <tnguyen910@ivc.edu>[m
+Date:   Sat Sep 28 21:27:29 2024 -0700[m
+[m
+    hw03[m
+[m
+[33mcommit c23ca8813b9bdc75ee55af7221c1db4667c3f896[m[m
+Author: Tim Nguyen <tim@tims-mbp.saddleback.edu>[m
+Date:   Thu Sep 26 19:39:28 2024 -0700[m
+[m
+:[K[K:[K[K-[Klog file: [K  [K--[Kll[K[K[K[Kqq[K[K:[K[K[?1l>[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ls -l
+[?2004ltotal 68
+-rwxrwxrwx 1 tiim tiim   108 Oct 23 10:10 [0m[01;32mbookOutput56827[0m
+-rwxrwxrwx 1 tiim tiim 46096 Oct 23 10:15 [01;32mhw05[0m
+-rwxrwxrwx 1 tiim tiim   171 Oct 23 09:53 [01;32mhw05.cpp[0m
+-rwxrwxrwx 1 tiim tiim    40 Oct 23 07:52 [01;32mhw05.hpp[0m
+-rwxrwxrwx 1 tiim tiim     0 Oct 23 10:18 [01;32mhw05.scr[0m
+-rwxrwxrwx 1 tiim tiim  1183 Oct 23 09:56 [01;32mhw05f.hpp[0m
+-rwxrwxrwx 1 tiim tiim   990 Oct 23 09:56 [01;32mhw05f1.cpp[0m
+-rwxrwxrwx 1 tiim tiim   169 Oct 23 09:53 [01;32mhw05f2.cpp[0m
+-rwxrwxrwx 1 tiim tiim  1458 Oct 23 10:11 [01;32mhw05f3.cpp[0m
+-rwxrwxrwx 1 tiim tiim   620 Oct 23 10:11 [01;32mhw05f4.cpp[0m
+-rwxrwxrwx 1 tiim tiim   509 Oct 23 09:53 [01;32mhw05f5.cpp[0m
+-rwxrwxrwx 1 tiim tiim   896 Oct 23 09:53 [01;32mhw05f6.cpp[0m
+-rwxrwxrwx 1 tiim tiim   926 Oct 23 10:12 [01;32mhw05f7.cpp[0m
+-rwxrwxrwx 1 tiim tiim   643 Oct 23 10:09 [01;32mmakefile[0m
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ make 
+[?2004lg++ -c hw05f1.cpp -o hw05f1.o
+g++ -c hw05f2.cpp -o hw05f2.o
+g++ -c hw05f3.cpp -o hw05f3.o
+g++ -c hw05f4.cpp -o hw05f4.o
+g++ -c hw05f5.cpp -o hw05f5.o 
+g++ -c hw05f6.cpp -o hw05f6.o
+g++ -c hw05f7.cpp -o hw05f7.o
+g++ hw05f1.o hw05f2.o hw05f3.o hw05f4.o hw05f5.o hw05f6.o hw05f7.o hw05f.hpp hw05.cpp -o hw05
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ ./hw05
+[?2004l ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 1
+Input Title: 
+Test Title 1
+Input Author: 
+Ja ohn Doe
+Input Page count: 
+435
+Choose a Type of Media:
+1. Hardcover2. Paperback
+3. Audiobook 
+4. Pdf
+5. Other
+Input: 1
+Input ISBN: 
+100000000         00000000001
+Input Genre: 
+d 23  Fiction
+Input Price: 
+40
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 2 1
+Input Title: 
+Jane      Test Title 2
+Input Author: 
+Jane Doe
+Input Page count: 
+32  434
+Choose a Type of Media:
+1. Hardcover2. Paperback
+3. Audiobook 
+4. Pdf
+5. Other
+Input: 2 3
+Input ISBN: 
+0000000000002
+Input Genre: 
+Fictio      Nonfiction
+Input Price: 
+32
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 3
+List of books: 
+1: Test Title 1
+2: Test Title 2
+Choose a book: 2
+
+
+Title: Test Title 2
+Author: Jane Doe
+Genre: Nonfiction
+Media Type: 2
+Page Count: 434
+ISBN: 0000000000002
+Price: $32
+
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 1 2
+List of books: 
+1: Test Title 1
+2: Test Title 2
+Choose a book: 1
+
+
+Title: Test Title 1
+Author: John Doe
+Genre: Fiction
+Media Type: 0
+Page Count: 435
+ISBN: 00000000001
+Price: $40
+
+Update book with new information.
+Input Title: 
+Jane Doe          Test Title (modified)
+Input Author: 
+Fictio      John Doe
+Input Page count: 
+Fic   435
+Choose a Type of Media:
+1. Hardcover2. Paperback
+3. Audiobook 
+4. Pdf
+5. Other
+Input: 2
+Input ISBN: 
+Fiction         0000000000001
+Input Genre: 
+Fiction
+Input Price: 
+32  40
+Book Updated
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 3
+List of books: 
+1: Test Title 1
+2: Test Title 2
+Choose a book: 1
+
+
+Title: Test Title 1
+Author: John Doe
+Genre: Fiction
+Media Type: 0
+Page Count: 435
+ISBN: 00000000001
+Price: $40
+
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 4
+Test Title
+Book not found ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 3
+List of books: 
+1: Test Title 1
+2: Test Title 2
+Choose a book: 1
+
+
+Title: Test Title 1
+Author: John Doe
+Genre: Fiction
+Media Type: 0
+Page Count: 435
+ISBN: 00000000001
+Price: $40
+
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 3
+List of books: 
+1: Test Title 1
+2: Test Title 2
+Choose a book: 2
+
+
+Title: Test Title 2
+Author: Jane Doe
+Genre: Nonfiction
+Media Type: 2
+Page Count: 434
+ISBN: 0000000000002
+Price: $32
+
+ ---------- Menu ---------- 
+1. Add a Book
+2. Modify a Book
+3. Show Book Info
+4. Search Book Title
+5. Save Data to A File
+0. Quit Program
+
+Input a number: 0
+[?2004h]0;tiim@DESKTOP-6LKEQ5A: /mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[01;32mtiim@DESKTOP-6LKEQ5A[00m:[01;34m/mnt/c/Users/Tim/code/repositories/cs1b/CS1b/hw/05[00m$ [?2004l
+exit
+
+Script done on 2024-10-23 10:21:22-07:00 [COMMAND_EXIT_CODE="0"]
