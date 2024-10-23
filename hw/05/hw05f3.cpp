@@ -59,10 +59,11 @@ BookInfo inputBookInfo() {
 
   returnBook.title = getInfo<std::string>("Title");
   returnBook.author = getInfo<std::string>("Author");
-  returnBook.pageCount = getInfo<int>("pageCount");
+  returnBook.pageCount = getInfo<int>("Page count");
   returnBook.mediaType = inputMediaType();
   returnBook.isbn = getInfo<std::string>("ISBN");
   returnBook.genre = getInfo<std::string>("Genre");
+  returnBook.price = getInfo<double>("Price");
 
   return returnBook;
 }

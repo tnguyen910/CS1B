@@ -8,7 +8,7 @@ void saveList(BookInfo data[10], size_t &size) {
   srand((unsigned)time(NULL));
   std::string idString = std::to_string(1 + (rand() % 100000));
 
-  std::string fileName = "bookOutput" + idString;
+  std::string fileName = "bookOutput" + idString + ".txt";
 
   std::ofstream outfile(fileName);
 
