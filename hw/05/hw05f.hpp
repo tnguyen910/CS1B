@@ -1,26 +1,25 @@
+#ifndef HW05_FN
 #include <iostream>
-#ifndef FUNCTIONS
 
 enum mediaType { Hardcover, Paperback, Audiobook, Pdf };
 
 struct BookInfo {
 
-    char title[40];
-    char author[40];
-    char genre[20];
-    double price;
-    int pageCount;
-    mediaType mediaType;
-    long int isbn;
+  char title[40];
+  char author[40];
+  char genre[20];
+  double price;
+  int pageCount;
+  mediaType mediaType;
+  long int isbn;
 };
 
-void menu();
-void populateBookDB(int data[10]);
-void inputBookInfo(int data[10]);
-void outputBookInfo(int data[10]);
-void searchList(int data[10]);
-void updateList(int data[10]);
-void saveList(int data[10]);
-void
+bool menu(BookInfo data[10]);
+void populateBookDB(BookInfo data[10]);
+void inputBookInfo(BookInfo data[10]);
+void outputBookInfo(BookInfo data[10]);
+void searchList(BookInfo data[10]);
+void updateList(BookInfo data[10]);
+void saveList(BookInfo data[10]);
 
 #endif
