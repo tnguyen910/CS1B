@@ -36,7 +36,7 @@ BookInfo inputBookInfo();
 void outputBookInfo(BookInfo data[10], size_t &size);
 
 // Search list for a book title
-void searchList(BookInfo data[10], size_t &size);
+int searchList(BookInfo data[10], size_t &size);
 
 // Update information of a specific book
 void updateList(BookInfo data[10], size_t &size);
