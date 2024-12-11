@@ -1,0 +1,59 @@
+OOP - Prioritizing Data over Action
+Procedural - Prioritizing Action over Data
+
+Static vs Dynamic Typing:
+
+- Static: Java, C#, C++
+- Dynamic: JS, Python, Ruby 
+
+*JS has prototypical inheritence vs class based inheritence by other lnaguages
+
+Classes: A data type definition
+- Field
+- Method
+(Values and operations)
+
+Classes can be composed of any various types of data
+
+An instance/object is an actual piece of data of type of a class.
+When instatiating an object, that piece only has fields and references the definition for the operations.
+
+
+
+Encapsulation: Methods are interfaces to object fields (only methods should directly access fields). - IMPORTANT CONCEPT 1
+
+public vs private (public fields/methods can be accessed anywhere, while private ones can only be accessed by the instance)
+
+
+
+Inheritence: A type may includ members fgorm naother type--they may overlap.  - IMPORTANT CONCEPT 2
+
+Inheritence is an "is-a" relationship, not a has-a. A child class is a version of the parent class
+Composition is a "has-a" relationship.
+
+Multiple Inheritence: Inheriting objects from multiple classes.
+Circular Inheritence is NOT allowed.
+
+Some languages require every clas to inherit from some other class, like a built in object class for the highest level.
+
+Overiding: Redefining Inherited methods- child classes will override fucntions of the same name- THIS IS NOT OVERLOADING
+
+Polymorphism: the definition of methods depends on the type of the object - IMPORTANT CONCEPT 3
+
+
+Class Members and Instance Members:
+Class mebers exist as a part of the class, stay constant. Class members may change across different instances of the class.
+
+
+
+Constructors: Creates an instance of a class.
+
+
+
+Interface: A set of methods:
+- important to composition, might allow objects of different types to do similar things if they need.
+
+Abstract classes: classes not meant to be instantiated, just meant to be inherited later.
+
+Prototypical inheritence: OOP without classes: producing child instances from parent instances.
+-This means that linking instances together, and by linking objects together, they "inherit" from eachother by searching for similar properties.
