@@ -11,7 +11,7 @@ public:
   fractionType(int t = 0, int b = 1) {
     int sign = 1;
     if ((t < 0) != (b < 0)) {
-      int sign = -1;
+      sign = -1;
     }
 
     top = abs(t) * sign;
