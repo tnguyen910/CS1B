@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     hw07
+relocations:
+  - { offset: 0x46, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000071D0, symSize: 0xB0 }
+  - { offset: 0x30B4, size: 0x8, addend: 0x0, symName: __ZN6HeaderC1Ev, symObjAddr: 0xB0, symBinAddr: 0x100007280, symSize: 0x2C }
+  - { offset: 0x30E3, size: 0x8, addend: 0x0, symName: __ZN6HeaderD1Ev, symObjAddr: 0x120, symBinAddr: 0x1000072AC, symSize: 0x2C }
+  - { offset: 0x310B, size: 0x8, addend: 0x0, symName: __ZN6HeaderC2Ev, symObjAddr: 0x14C, symBinAddr: 0x1000072D8, symSize: 0x1C }
+  - { offset: 0x3135, size: 0x8, addend: 0x0, symName: __ZN6HeaderD2Ev, symObjAddr: 0x168, symBinAddr: 0x1000072F4, symSize: 0xB8 }
+...

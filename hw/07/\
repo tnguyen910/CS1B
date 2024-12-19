@@ -1,0 +1,37 @@
+CPP := g++
+OBJS := addBook.o delBook.o manageFile.o showBook.o menu.o popList.o showBooks.o 
+
+all: hw07
+
+hw07: $(OBJS)
+	$(CPP) $(OBJS) hw07.cpp -o hw07
+
+addBook:
+	$(CPP) -c addBook.cpp -o addBook.o 
+
+delBook:
+	$(CPP) -c delBook.cpp -o delBook.o 
+
+manageFile:
+	$(CPP) -c manageFile.cpp -o manageFile.o
+
+showBook:
+	$(CPP) -c showBook.cpp -o showBook.o 
+
+showBooks:	showBook.o
+	$(CPP) -c showBooks.cpp -o showBooks.o
+
+menu:
+	$(CPP) -c menu.cpp -o menu.o 
+
+popList:
+	$(CPP) -c popList.cpp -o popList.o 
+
+clean:
+	rm *.o *.tar
+
+tar:
+	tar -cvf hw07.tar addBook.cpp delBook.cpp manageFile.cpp showBook.cpp showBooks.cpp menu.cpp popList.cpp header.hpp nodes.hpp hw07.hpp hw07f.scr booksdb.txt makefile
+
+
+

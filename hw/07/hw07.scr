@@ -1,0 +1,247 @@
+Script started on Wed Dec 18 18:43:24 2024
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004hlls[?2004l
+\		delBook.cpp	hw07.cpp	hw07f.hpp	menu.cpp	popList.o	showBooks.o
+addBook.cpp	delBook.o	hw07.dSYM	makefile	menu.o		showBook.cpp
+addBook.o	header.hpp	hw07.scr	manageFile.cpp	nodes.hpp	showBook.o
+booksdb.txt	hw07		hw07f.cpp	manageFile.o	popList.cpp	showBooks.cpp
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004hmmake[?2004l
+make: Nothing to be done for `all'.
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004h../h .  mmake clean[?2004l
+rm *.o *.tar
+rm: *.tar: No such file or directory
+make: *** [clean] Error 1
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004hmmake[?2004l
+c++    -c -o addBook.o addBook.cpp
+In file included from addBook.cpp:1:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+c++    -c -o delBook.o delBook.cpp
+In file included from delBook.cpp:1:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+c++    -c -o manageFile.o manageFile.cpp
+In file included from manageFile.cpp:1:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+c++    -c -o showBook.o showBook.cpp
+In file included from showBook.cpp:1:
+In file included from ./hw07f.hpp:3:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+c++    -c -o menu.o menu.cpp
+In file included from menu.cpp:1:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+c++    -c -o popList.o popList.cpp
+c++    -c -o showBooks.o showBooks.cpp
+In file included from showBooks.cpp:1:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+g++ -g addBook.o delBook.o manageFile.o showBook.o menu.o popList.o showBooks.o  hw07.cpp -o hw07
+In file included from hw07.cpp:1:
+[1m./header.hpp:8:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    8 |     Node *head = nullptr;[0m
+      | [0;1;32m               ^
+[0m[1m./header.hpp:9:16: [0m[0;1;35mwarning: [0m[1mdefault member initializer for non-static data member is a C++11 extension [-Wc++11-extensions][0m
+    9 |     Node *tail = nullptr;[0m
+      | [0;1;32m               ^
+[0m2 warnings generated.
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004hmmake   m  mmake  m  mmake  m  ../h .  ../hw07    .  ../hw07[?2004l
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 3
+ISBN: ISBN1
+Author: Author1
+Title: Title1
+
+ISBN: ISBN3
+Author: Author3
+Title: Title3
+
+ISBN: ISBN5
+Author: Author5
+Title: Title5
+
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 1
+Enter ISBN: Author6
+Enter Author: Author6
+Enter Title: Author6
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 3
+ISBN: ISBN1
+Author: Author1
+Title: Title1
+
+ISBN: ISBN3
+Author: Author3
+Title: Title3
+
+ISBN: ISBN5
+Author: Author5
+Title: Title5
+
+ISBN: Author6
+Author: Author6
+Title: Author6
+
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 2
+Enter Title of the book to delete: Title     Author6
+testSelect from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 4
+Goodbye!
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004hccat booksdb.txt[?2004l
+ISBN1
+Author1
+Title1
+
+ISBN3
+Author3
+Title3
+
+ISBN5
+Author5
+Title5
+
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004hvvalgrin     v  lleaks --atExit -- ./hw07[?2004l
+hw07(76981) MallocStackLogging: could not tag MSL-related memory as no_footprint, so those pages will be included in process footprint - (null)
+hw07(76981) MallocStackLogging: recording malloc and VM allocation stacks using lite mode
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 3
+ISBN: ISBN1
+Author: Author1
+Title: Title1
+
+ISBN: ISBN3
+Author: Author3
+Title: Title3
+
+ISBN: ISBN5
+Author: Author5
+Title: Title5
+
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 1
+Enter ISBN: Title7
+Enter Author: Author7
+Enter Title: Title7
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 2
+Enter Title of the book to delete: Title3
+testSelect from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 3
+ISBN: ISBN1
+Author: Author1
+Title: Title1
+
+ISBN: ISBN5
+Author: Author5
+Title: Title5
+
+ISBN: Title7
+Author: Author7
+Title: Title7
+
+Select from the following options:
+1. Add a book
+2. Delete a book
+3. Display all books
+4. Save and exit
+Enter your choice: 4
+Goodbye!
+Process 76981 is not debuggable. Due to security restrictions, leaks can only show or save contents of readonly memory of restricted processes.
+
+Process:         hw07 [76981]
+Path:            /Users/USER/*/hw07
+Load Address:    0x1022f8000
+Identifier:      hw07
+Version:         0
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  leaks [76980]
+
+Date/Time:       2024-12-18 18:44:55.204 -0800
+Launch Time:     2024-12-18 18:44:33.404 -0800
+OS Version:      macOS 14.5 (23F79)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 16.2 (16C5032a)
+
+Physical footprint:         3841K
+Physical footprint (peak):  3841K
+Idle exit:                  untracked
+----
+
+leaks Report Version: 4.0, multi-line stacks
+Process 76981: 187 nodes malloced for 19 KB
+Process 76981: 0 leaks for 0 total leaked bytes.
+
+[1m[7m%[27m[1m[0m                                                                                                                                 [0m[27m[24m[J(base) tim@Tims-MacBook-Pro 07 % [K[?2004h[?2004l
+
+Script done on Wed Dec 18 18:45:19 2024

@@ -1,0 +1,2 @@
+#ifndef FUNCTIONS
+#endif // !FUNCTIONS
